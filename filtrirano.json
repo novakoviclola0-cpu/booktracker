@@ -1,0 +1,93 @@
+{
+    "filter": "Prebrano po 2026-04-04",
+    "rezultati": [
+        {
+            "id": "B01",
+            "knjigaId": "K01",
+            "naslov": "Mali princ",
+            "avtor": "Antoine de Saint-Exupéry",
+            "letoIzdaje": 1943,
+            "status": "Prebrano",
+            "ocena": 4,
+            "datumVnosa": "2026-09-01",
+            "datumZakljucka": "2026-09-05"
+        },
+        {
+            "id": "B02",
+            "knjigaId": "K02",
+            "naslov": "1984",
+            "avtor": "George Orwell",
+            "letoIzdaje": 1949,
+            "status": "Prebrano",
+            "ocena": 5,
+            "datumVnosa": "2026-09-12",
+            "datumZakljucka": "2026-09-20"
+        },
+        {
+            "id": "B05",
+            "knjigaId": "K05",
+            "naslov": "Hobit",
+            "avtor": "J. R. R. Tolkien",
+            "letoIzdaje": 1937,
+            "status": "Prebrano",
+            "ocena": 5,
+            "datumVnosa": "2026-09-20",
+            "datumZakljucka": "2026-09-28"
+        },
+        {
+            "id": "B07",
+            "knjigaId": "K07",
+            "naslov": "Proces",
+            "avtor": "Franz Kafka",
+            "letoIzdaje": 1925,
+            "status": "Prebrano",
+            "ocena": 4,
+            "datumVnosa": "2026-09-24",
+            "datumZakljucka": "2026-10-03"
+        },
+        {
+            "id": "B10",
+            "knjigaId": "K10",
+            "naslov": "Zločin in kazen",
+            "avtor": "Fjodor Dostojevski",
+            "letoIzdaje": 1866,
+            "status": "Prebrano",
+            "ocena": 5,
+            "datumVnosa": "2026-09-18",
+            "datumZakljucka": "2026-10-06"
+        },
+        {
+            "id": "B11",
+            "knjigaId": "K11",
+            "naslov": "Živalska farma",
+            "avtor": "George Orwell",
+            "letoIzdaje": 1945,
+            "status": "Prebrano",
+            "ocena": 4,
+            "datumVnosa": "2026-10-01",
+            "datumZakljucka": "2026-10-12"
+        },
+        {
+            "id": "B13",
+            "knjigaId": "K14",
+            "naslov": "Starec in morje",
+            "avtor": "Ernest Hemingway",
+            "letoIzdaje": 1952,
+            "status": "Prebrano",
+            "ocena": 4,
+            "datumVnosa": "2026-10-05",
+            "datumZakljucka": "2026-10-09"
+        },
+        {
+            "id": "B14",
+            "knjigaId": "K13",
+            "naslov": "Most na Drini",
+            "avtor": "Ivo Andrić",
+            "letoIzdaje": 1945,
+            "status": "Prebrano",
+            "ocena": 5,
+            "datumVnosa": "2026-10-10",
+            "datumZakljucka": "2026-10-17"
+        }
+    ]
+}

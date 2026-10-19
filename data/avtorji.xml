@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<avtorji>
+    <avtor id="A01">
+        <ime>George Orwell</ime>
+        <drzava>Združeno kraljestvo</drzava>
+        <letoRojstva>1903</letoRojstva>
+    </avtor>
+    <avtor id="A02">
+        <ime>Antoine de Saint-Exupéry</ime>
+        <drzava>Francija</drzava>
+        <letoRojstva>1900</letoRojstva>
+    </avtor>
+    <avtor id="A03">
+        <ime>Jane Austen</ime>
+        <drzava>Združeno kraljestvo</drzava>
+        <letoRojstva>1775</letoRojstva>
+    </avtor>
+    <avtor id="A04">
+        <ime>J. K. Rowling</ime>
+        <drzava>Združeno kraljestvo</drzava>
+        <letoRojstva>1965</letoRojstva>
+    </avtor>
+    <avtor id="A05">
+        <ime>J. R. R. Tolkien</ime>
+        <drzava>Združeno kraljestvo</drzava>
+        <letoRojstva>1892</letoRojstva>
+    </avtor>
+    <avtor id="A06">
+        <ime>Paulo Coelho</ime>
+        <drzava>Brazilija</drzava>
+        <letoRojstva>1947</letoRojstva>
+    </avtor>
+    <avtor id="A07">
+        <ime>Franz Kafka</ime>
+        <drzava>Češka</drzava>
+        <letoRojstva>1883</letoRojstva>
+    </avtor>
+    <avtor id="A08">
+        <ime>Albert Camus</ime>
+        <drzava>Francija</drzava>
+        <letoRojstva>1913</letoRojstva>
+    </avtor>
+    <avtor id="A09">
+        <ime>Lev Tolstoj</ime>
+        <drzava>Rusija</drzava>
+        <letoRojstva>1828</letoRojstva>
+    </avtor>
+    <avtor id="A10">
+        <ime>Fjodor Dostojevski</ime>
+        <drzava>Rusija</drzava>
+        <letoRojstva>1821</letoRojstva>
+    </avtor>
+    <avtor id="A11">
+        <ime>Ivo Andrić</ime>
+        <drzava>Bosna in Hercegovina</drzava>
+        <letoRojstva>1892</letoRojstva>
+    </avtor>
+    <avtor id="A12">
+        <ime>Ernest Hemingway</ime>
+        <drzava>Združene države Amerike</drzava>
+        <letoRojstva>1899</letoRojstva>
+    </avtor>
+    <avtor id="A13">
+        <ime>Gabriel García Márquez</ime>
+        <drzava>Kolumbija</drzava>
+        <letoRojstva>1927</letoRojstva>
+    </avtor>
+</avtorji>

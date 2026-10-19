@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<branja>
+    <branje id="B01">
+        <knjigaId>K01</knjigaId>
+        <status>Prebrano</status>
+        <ocena>4</ocena>
+        <datumVnosa>2026-09-01</datumVnosa>
+        <datumZakljucka>2026-09-05</datumZakljucka>
+    </branje>
+    <branje id="B02">
+        <knjigaId>K02</knjigaId>
+        <status>Prebrano</status>
+        <ocena>5</ocena>
+        <datumVnosa>2026-09-12</datumVnosa>
+        <datumZakljucka>2026-09-20</datumZakljucka>
+    </branje>
+    <branje id="B03">
+        <knjigaId>K03</knjigaId>
+        <status>Želim prebrati</status>
+        <ocena></ocena>
+        <datumVnosa>2026-10-01</datumVnosa>
+        <datumZakljucka></datumZakljucka>
+    </branje>
+    <branje id="B04">
+        <knjigaId>K04</knjigaId>
+        <status>Trenutno berem</status>
+        <ocena></ocena>
+        <datumVnosa>2026-10-03</datumVnosa>
+        <datumZakljucka></datumZakljucka>
+    </branje>
+    <branje id="B05">
+        <knjigaId>K05</knjigaId>
+        <status>Prebrano</status>
+        <ocena>5</ocena>
+        <datumVnosa>2026-09-20</datumVnosa>
+        <datumZakljucka>2026-09-28</datumZakljucka>
+    </branje>
+    <branje id="B06">
+        <knjigaId>K06</knjigaId>
+        <status>Želim prebrati</status>
+        <ocena></ocena>
+        <datumVnosa>2026-10-04</datumVnosa>
+        <datumZakljucka></datumZakljucka>
+    </branje>
+    <branje id="B07">
+        <knjigaId>K07</knjigaId>
+        <status>Prebrano</status>
+        <ocena>4</ocena>
+        <datumVnosa>2026-09-24</datumVnosa>
+        <datumZakljucka>2026-10-03</datumZakljucka>
+    </branje>
+    <branje id="B08">
+        <knjigaId>K08</knjigaId>
+        <status>Trenutno berem</status>
+        <ocena></ocena>
+        <datumVnosa>2026-10-06</datumVnosa>
+        <datumZakljucka></datumZakljucka>
+    </branje>
+    <branje id="B09">
+        <knjigaId>K09</knjigaId>
+        <status>Želim prebrati</status>
+        <ocena></ocena>
+        <datumVnosa>2026-10-08</datumVnosa>
+        <datumZakljucka></datumZakljucka>
+    </branje>
+    <branje id="B10">
+        <knjigaId>K10</knjigaId>
+        <status>Prebrano</status>
+        <ocena>5</ocena>
+        <datumVnosa>2026-09-18</datumVnosa>
+        <datumZakljucka>2026-10-06</datumZakljucka>
+    </branje>
+    <branje id="B11">
+        <knjigaId>K11</knjigaId>
+        <status>Prebrano</status>
+        <ocena>4</ocena>
+        <datumVnosa>2026-10-01</datumVnosa>
+        <datumZakljucka>2026-10-12</datumZakljucka>
+    </branje>
+    <branje id="B12">
+        <knjigaId>K12</knjigaId>
+        <status>Trenutno berem</status>
+        <ocena></ocena>
+        <datumVnosa>2026-10-14</datumVnosa>
+        <datumZakljucka></datumZakljucka>
+    </branje>
+    <branje id="B13">
+        <knjigaId>K14</knjigaId>
+        <status>Prebrano</status>
+        <ocena>4</ocena>
+        <datumVnosa>2026-10-05</datumVnosa>
+        <datumZakljucka>2026-10-09</datumZakljucka>
+    </branje>
+    <branje id="B14">
+        <knjigaId>K13</knjigaId>
+        <status>Prebrano</status>
+        <ocena>5</ocena>
+        <datumVnosa>2026-10-10</datumVnosa>
+        <datumZakljucka>2026-10-17</datumZakljucka>
+    </branje>
+    <branje id="B15">
+        <knjigaId>K15</knjigaId>
+        <status>Trenutno berem</status>
+        <datumVnosa>2026-10-17</datumVnosa>
+    </branje>
+</branja>

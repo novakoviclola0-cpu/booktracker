@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<knjige>
+    <knjiga id="K01">
+        <naslov>Mali princ</naslov>
+        <avtorId>A02</avtorId>
+        <letoIzdaje>1943</letoIzdaje>
+        <steviloStrani>96</steviloStrani>
+    </knjiga>
+    <knjiga id="K02">
+        <naslov>1984</naslov>
+        <avtorId>A01</avtorId>
+        <letoIzdaje>1949</letoIzdaje>
+        <steviloStrani>328</steviloStrani>
+    </knjiga>
+    <knjiga id="K03">
+        <naslov>Ponos in predsodek</naslov>
+        <avtorId>A03</avtorId>
+        <letoIzdaje>1813</letoIzdaje>
+        <steviloStrani>432</steviloStrani>
+    </knjiga>
+    <knjiga id="K04">
+        <naslov>Harry Potter in kamen modrosti</naslov>
+        <avtorId>A04</avtorId>
+        <letoIzdaje>1997</letoIzdaje>
+        <steviloStrani>223</steviloStrani>
+    </knjiga>
+    <knjiga id="K05">
+        <naslov>Hobit</naslov>
+        <avtorId>A05</avtorId>
+        <letoIzdaje>1937</letoIzdaje>
+        <steviloStrani>310</steviloStrani>
+    </knjiga>
+    <knjiga id="K06">
+        <naslov>Alkimist</naslov>
+        <avtorId>A06</avtorId>
+        <letoIzdaje>1988</letoIzdaje>
+        <steviloStrani>208</steviloStrani>
+    </knjiga>
+    <knjiga id="K07">
+        <naslov>Proces</naslov>
+        <avtorId>A07</avtorId>
+        <letoIzdaje>1925</letoIzdaje>
+        <steviloStrani>256</steviloStrani>
+    </knjiga>
+    <knjiga id="K08">
+        <naslov>Tujec</naslov>
+        <avtorId>A08</avtorId>
+        <letoIzdaje>1942</letoIzdaje>
+        <steviloStrani>123</steviloStrani>
+    </knjiga>
+    <knjiga id="K09">
+        <naslov>Ana Karenina</naslov>
+        <avtorId>A09</avtorId>
+        <letoIzdaje>1878</letoIzdaje>
+        <steviloStrani>864</steviloStrani>
+    </knjiga>
+    <knjiga id="K10">
+        <naslov>Zločin in kazen</naslov>
+        <avtorId>A10</avtorId>
+        <letoIzdaje>1866</letoIzdaje>
+        <steviloStrani>671</steviloStrani>
+    </knjiga>
+    <knjiga id="K11">
+        <naslov>Živalska farma</naslov>
+        <avtorId>A01</avtorId>
+        <letoIzdaje>1945</letoIzdaje>
+        <steviloStrani>112</steviloStrani>
+    </knjiga>
+    <knjiga id="K12">
+        <naslov>Gospodar prstanov</naslov>
+        <avtorId>A05</avtorId>
+        <letoIzdaje>1954</letoIzdaje>
+        <steviloStrani>1178</steviloStrani>
+    </knjiga>
+    <knjiga id="K13">
+        <naslov>Most na Drini</naslov>
+        <avtorId>A11</avtorId>
+        <letoIzdaje>1945</letoIzdaje>
+        <steviloStrani>352</steviloStrani>
+    </knjiga>
+    <knjiga id="K14">
+        <naslov>Starec in morje</naslov>
+        <avtorId>A12</avtorId>
+        <letoIzdaje>1952</letoIzdaje>
+        <steviloStrani>127</steviloStrani>
+    </knjiga>
+    <knjiga id="K15">
+        <naslov>Sto let samote</naslov>
+        <avtorId>A13</avtorId>
+        <letoIzdaje>1967</letoIzdaje>
+        <steviloStrani>417</steviloStrani>
+    </knjiga>
+</knjige>

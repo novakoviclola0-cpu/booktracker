@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<filtriranaBranja filter="Prebrano po 2026-04-04">
+    <branje id="B01">
+        <knjigaId>K01</knjigaId>
+        <naslov>Mali princ</naslov>
+        <avtor>Antoine de Saint-Exupéry</avtor>
+        <letoIzdaje>1943</letoIzdaje>
+        <status>Prebrano</status>
+        <ocena>4</ocena>
+        <datumVnosa>2026-09-01</datumVnosa>
+        <datumZakljucka>2026-09-05</datumZakljucka>
+    </branje>
+    <branje id="B02">
+        <knjigaId>K02</knjigaId>
+        <naslov>1984</naslov>
+        <avtor>George Orwell</avtor>
+        <letoIzdaje>1949</letoIzdaje>
+        <status>Prebrano</status>
+        <ocena>5</ocena>
+        <datumVnosa>2026-09-12</datumVnosa>
+        <datumZakljucka>2026-09-20</datumZakljucka>
+    </branje>
+    <branje id="B05">
+        <knjigaId>K05</knjigaId>
+        <naslov>Hobit</naslov>
+        <avtor>J. R. R. Tolkien</avtor>
+        <letoIzdaje>1937</letoIzdaje>
+        <status>Prebrano</status>
+        <ocena>5</ocena>
+        <datumVnosa>2026-09-20</datumVnosa>
+        <datumZakljucka>2026-09-28</datumZakljucka>
+    </branje>
+    <branje id="B07">
+        <knjigaId>K07</knjigaId>
+        <naslov>Proces</naslov>
+        <avtor>Franz Kafka</avtor>
+        <letoIzdaje>1925</letoIzdaje>
+        <status>Prebrano</status>
+        <ocena>4</ocena>
+        <datumVnosa>2026-09-24</datumVnosa>
+        <datumZakljucka>2026-10-03</datumZakljucka>
+    </branje>
+    <branje id="B10">
+        <knjigaId>K10</knjigaId>
+        <naslov>Zločin in kazen</naslov>
+        <avtor>Fjodor Dostojevski</avtor>
+        <letoIzdaje>1866</letoIzdaje>
+        <status>Prebrano</status>
+        <ocena>5</ocena>
+        <datumVnosa>2026-09-18</datumVnosa>
+        <datumZakljucka>2026-10-06</datumZakljucka>
+    </branje>
+    <branje id="B11">
+        <knjigaId>K11</knjigaId>
+        <naslov>Živalska farma</naslov>
+        <avtor>George Orwell</avtor>
+        <letoIzdaje>1945</letoIzdaje>
+        <status>Prebrano</status>
+        <ocena>4</ocena>
+        <datumVnosa>2026-10-01</datumVnosa>
+        <datumZakljucka>2026-10-12</datumZakljucka>
+    </branje>
+    <branje id="B13">
+        <knjigaId>K14</knjigaId>
+        <naslov>Starec in morje</naslov>
+        <avtor>Ernest Hemingway</avtor>
+        <letoIzdaje>1952</letoIzdaje>
+        <status>Prebrano</status>
+        <ocena>4</ocena>
+        <datumVnosa>2026-10-05</datumVnosa>
+        <datumZakljucka>2026-10-09</datumZakljucka>
+    </branje>
+    <branje id="B14">
+        <knjigaId>K13</knjigaId>
+        <naslov>Most na Drini</naslov>
+        <avtor>Ivo Andrić</avtor>
+        <letoIzdaje>1945</letoIzdaje>
+        <status>Prebrano</status>
+        <ocena>5</ocena>
+        <datumVnosa>2026-10-10</datumVnosa>
+        <datumZakljucka>2026-10-17</datumZakljucka>
+    </branje>
+</filtriranaBranja>
