@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package booktracker;
+
+service BookService {
+  rpc GetBooks (BooksRequest) returns (BooksResponse);
+  rpc GetBook (BookRequest) returns (Book);
+  rpc GetStatistics (StatisticsRequest) returns (StatisticsResponse);
+  rpc StreamBooks (BooksRequest) returns (stream Book);
+}
+
+message Book {
+  string id = 1;
+  string naslov = 2;
+  string avtor = 3;
+  int32 leto_izdaje = 4;
+  int32 stevilo_strani = 5;
+  string status = 6;
+  int32 ocena = 7;
+  string datum_zakljucka = 8;
+}
+
+message BooksRequest {
+  string status = 1;
+}
+
+message BooksResponse {
+  repeated Book knjige = 1;
+}
+
+message BookRequest {
+  string id = 1;
+}
+
+message StatisticsRequest {}
+
+message StatisticsResponse {
+  int32 skupaj = 1;
+  int32 prebrano = 2;
+  int32 trenutno_berem = 3;
+  int32 zelim_prebrati = 4;
+  double povprecna_ocena = 5;
+}

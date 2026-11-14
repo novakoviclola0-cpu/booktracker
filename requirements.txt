@@ -1,6 +1,6 @@
 requests>=2.31,<3
 beautifulsoup4>=4.12,<5
-requests>=2.31,<3
-beautifulsoup4>=4.12,<5
 pyaxis>=0.4,<0.5
 streamlit>=1.40,<2
+grpcio>=1.60,<2
+protobuf>=5,<7
