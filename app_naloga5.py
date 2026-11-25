@@ -76,3 +76,51 @@ if st.button("Pretakaj knjige"):
         st.write(f"Prenesenih knjig: {len(vrstice)}")
     except grpc.RpcError:
         st.error("Pretakanje ni uspelo. Preveri strežnik.")
+
+st.divider()
+st.subheader("Analiza knjižnice prek poimenovane cevi")
+min_strani = st.number_input("Najmanjše število strani", min_value=0, step=50)
+min_ocena = st.selectbox("Najmanjša ocena", [0, 1, 2, 3, 4, 5], format_func=lambda x: "Vse" if x == 0 else str(x))
+
+
+@st.cache_resource
+def pipe_izvajalnik():
+    from concurrent.futures import ThreadPoolExecutor
+    return ThreadPoolExecutor(max_workers=2)
+
+
+if st.button("Analiziraj knjižnico", disabled=bool(st.session_state.get("pipe_opravilo") and not st.session_state["pipe_opravilo"].done())):
+    from pipe_client import poslji_zahtevo
+    st.session_state.pop("pipe_rezultat", None)
+    st.session_state["pipe_opravilo"] = pipe_izvajalnik().submit(
+        poslji_zahtevo,
+        {"status": filter_status, "min_strani": min_strani, "min_ocena": min_ocena},
+    )
+
+
+@st.fragment(run_every="1s")
+def prikazi_pipe_rezultat():
+    opravilo = st.session_state.get("pipe_opravilo")
+    if opravilo:
+        if not opravilo.done():
+            st.info("Čakam na odgovor strežnika ...")
+            return
+        st.session_state.pop("pipe_opravilo", None)
+        try:
+            st.session_state["pipe_rezultat"] = opravilo.result()
+        except (ConnectionError, TimeoutError, RuntimeError, EOFError, OSError) as napaka:
+            st.error(str(napaka))
+            return
+    rezultat = st.session_state.get("pipe_rezultat")
+    if rezultat is not None:
+        st.write(f"Knjig: {rezultat['stevilo']}")
+        st.write(f"Skupno strani: {rezultat['skupaj_strani']}")
+        ocena = rezultat["povprecna_ocena"]
+        st.write(f"Povprečna ocena: {ocena if ocena is not None else '-'}")
+        if rezultat["knjige"]:
+            st.dataframe(rezultat["knjige"], hide_index=True, use_container_width=True)
+        else:
+            st.info("Ni knjig, ki ustrezajo izbranim filtrom.")
+
+
+prikazi_pipe_rezultat()
